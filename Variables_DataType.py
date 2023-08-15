@@ -48,3 +48,4 @@ k={'Telugu':"Namaskaram",'English':"Hi!!",'Kannada':"Namaskara"}
 
 print(k,type(k))           #dict
 
+
