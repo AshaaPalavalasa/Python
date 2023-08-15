@@ -13,3 +13,5 @@ print("Hi guys...\"Greetings!!\"")
 
 
 print("Hey", 6, 7, sep="|", end="last")     # SEP-->Seperates the print elements; END--> prints the given string at the end of output string
+
+print("THE_END")
