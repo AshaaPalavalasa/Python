@@ -13,6 +13,12 @@ print("Hi guys...\"Greetings!!\"")
 print('''Hello                              
       how are you?''')                      # triple quotes help in printing multiple lines
 
-print("Hey", 6, 7, sep="|", end="last")     # SEP-->Seperates the print elements; END--> prints the given string at the end of output string
+print("Hey", 6, 7, sep="|", end="last\n")     # SEP-->Seperates the print elements; END--> prints the given string at the end of output string
+
+a=4
+b=10
+print(f"{a} is smaller then {b}")          # You can directly make use of variables in print statement using %s (or) format (or) f-string
+print("{0} is smaller than {1}".format(a,b))
+print('%s is smaller than %s' % (a,b))
 
 print("THE_END")

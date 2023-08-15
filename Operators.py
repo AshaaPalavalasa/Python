@@ -18,3 +18,16 @@ print(a%b)          #1
 print(a/b)          #2.5
 print(a//b)         #2--> divides the values and gives only the interger value and omits the decimal value
 
+# 2. Conditional Operators
+''' >   --->    Greater Than
+    <   --->    Less Than
+    >=  --->    Greater Than or Equals To
+    <=  --->    Less than or equals to
+    ==  --->    Equals To'''
+
+print(a>b)          #True
+print(a<b)          #False
+print(a>=b)         #True
+print(a<=b)         #False
+print(a==b)         #False
+
