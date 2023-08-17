@@ -23,6 +23,16 @@ for k in range(1,15):               #Starts from 1 to 14
 for k in range(1,20,5):             #Starts from 1 to 20 and steps the k value by 5
     print(k)
 
+for i in range(7):
+    print(i*2)
+else:
+    print("You have reached the end of the loop")       # The statements in the else block will be executed after all iterations are completed.
+
+# If break is used in if or while loop, else doesnot execute, ELSE is ONLY EXECUTED IF THE LOOP IS COMPLETED NOT BREAKED
+
+
+
+
 ###         WHILE LOOP  ---> Performs a set of code until the condition is True.        ###
 
 i=0
