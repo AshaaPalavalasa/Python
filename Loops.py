@@ -28,9 +28,17 @@ for i in range(7):
 else:
     print("You have reached the end of the loop")       # The statements in the else block will be executed after all iterations are completed.
 
-# If break is used in if or while loop, else doesnot execute, ELSE is ONLY EXECUTED IF THE LOOP IS COMPLETED NOT BREAKED
+##   If break is used in if or while loop, else doesnot execute, ELSE is ONLY EXECUTED IF THE LOOP IS COMPLETED NOT BREAKED
 
+## Enumerate is a built-in function that allows you to loop through a sequence and get the index and the value of the sequence at the same time.
 
+fruits=["Mango","Strawberry","Jackfruit"]
+for index,fruit in enumerate(fruits):
+    print(f"{index}. {fruit}")
+
+fruits=["Mango","Strawberry","Jackfruit"]
+for index,fruit in enumerate(fruits,1):
+    print(f"{index}. {fruit}")
 
 
 ###         WHILE LOOP  ---> Performs a set of code until the condition is True.        ###

@@ -7,6 +7,8 @@ if(a>=18):
     print("You can vote")
 else:
     print("You can't vote")
+print("You still Kid!!") if a<12 else 0             # If-Else in one line
+b=a if a<10 else ""
 print("Have a Good Day!!!")
 
                             ## Elif Statement ##
